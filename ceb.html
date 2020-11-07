@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electricity Bill</title>
+</head>
+<body style="background-image:url(img.jpg);background-position: top">	
+	<form action="#" class="forms">
+		<fieldset>
+			<legend align="center" style="font-family: algerian; font-size:50px; color: orange"> Electricity Bill Calculator </legend>
+		
+			<center> <b>
+		<div id="electri">
+
+			<label style="font-size: 50px">No of Units</label>
+		    <input type="number" placeholder="kWh" id="unitNo">	
+
+		    <br><br>
+
+		    <label style="font-size: 50px">From Date</label>
+		    <input type="date" >
+
+		    <br><br>
+
+		    <label style="font-size: 50px">To Date</label>
+		    <input type="date">
+
+		    <br><br>
+
+			<span style="font-size: 50px" >
+			 <input type="reset" value="Try Again">
+        	</span>
+      
+
+        	<br><br>
+
+		    
+		    <span style="font-size: 50px">
+		    <button onclick="billCalculating()">Calculate</button>
+		</span>
+
+		    
+	  </div>
+	</center></b>
+
+
+	</fieldset>
+	<script type="text/javascript" src="bill.js"></script>
+	</form>
+	
+
+</body>
+</html>
